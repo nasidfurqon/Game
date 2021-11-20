@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Game
 {
     class Program
@@ -23,12 +22,10 @@ namespace Game
                 }
                 if (pilihanMenu==2)
                 {
-                    Console.WriteLine("Pilih Salah Satu");
-                    Console.WriteLine("1.Monster Kalajengking(7,0) \n2.Semut Raksasa(3,0) \n3.Ular Raksasa(10,0)");   
+                    Musuh musuh=new Musuh("Monster Kalajengking","Semut Raksasa","Ular Raksasa");
                 }
                 if(pilihanMenu==3)
                 {
-
                 }
             }
         }
