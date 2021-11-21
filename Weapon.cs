@@ -2,7 +2,7 @@ using System;
 
 namespace Game
 {
-    class Weapon: HealthAndAttack
+    class Weapon: Damage
     {
         public string Senjata{get;set;}
         public string Senjata2{get;set;}
@@ -22,27 +22,28 @@ namespace Game
             int pilihan=Convert.ToInt32(Console.ReadLine());
             if (pilihan==1)
             {   
-                Console.WriteLine($"Kamu memilih {senjata},damage yang kamu berikan sebesar {Damage}");
+                Console.WriteLine($"Kamu memilih {senjata},damage yang akan kamu berikan sebesar {UserDamage}");
             }
             if (pilihan==2)
             {
-                Console.WriteLine($"Kamu memilih {senjata2},damage yang kamu berikan sebesar {Damage}");
+                Console.WriteLine($"Kamu memilih {senjata2},damage yang akan kamu berikan sebesar {UserDamage}");
             }
             if (pilihan==3)
             {
-                Console.WriteLine($"Kamu memilih {senjata3},damage yang kamu berikan sebesar {Damage}");
+                Console.WriteLine($"Kamu memilih {senjata3},damage yang akan kamu berikan sebesar {UserDamage}");
                 
             }
             if (pilihan==4)
             {
-                Console.WriteLine($"Kamu memilih {senjata4},damage yang kamu berikan sebesar {Damage}");
+                Console.WriteLine($"Kamu memilih {senjata4},damage yang akan kamu berikan sebesar {UserDamage}");
                 
             }
             if (pilihan==5)
             {
-                Console.WriteLine($"Kamu memilih {senjata5},damage yang kamu berikan sebesar {Damage}");
+                Console.WriteLine($"Kamu memilih {senjata5},damage yang akan kamu berikan sebesar {UserDamage}");
 
             }
         }
     }
 }
+
