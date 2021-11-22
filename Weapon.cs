@@ -2,7 +2,7 @@ using System;
 
 namespace Game
 {
-    class Weapon: Damage
+    class Weapon: Induk
     {
         public string Senjata{get;set;}
         public string Senjata2{get;set;}
@@ -22,25 +22,25 @@ namespace Game
             int pilihan=Convert.ToInt32(Console.ReadLine());
             if (pilihan==1)
             {   
-                Console.WriteLine($"Kamu memilih {senjata},damage yang akan kamu berikan sebesar {UserDamage}");
+                Console.WriteLine($"Kamu memilih {senjata},pilihan yang bagus pahlawan!!");
             }
             if (pilihan==2)
             {
-                Console.WriteLine($"Kamu memilih {senjata2},damage yang akan kamu berikan sebesar {UserDamage}");
+                Console.WriteLine($"Kamu memilih {senjata2},pilihan yang bagus pahlawan!!");
             }
             if (pilihan==3)
             {
-                Console.WriteLine($"Kamu memilih {senjata3},damage yang akan kamu berikan sebesar {UserDamage}");
+                Console.WriteLine($"Kamu memilih {senjata3},pilihan yang bagus pahlawan!!");
                 
             }
             if (pilihan==4)
             {
-                Console.WriteLine($"Kamu memilih {senjata4},damage yang akan kamu berikan sebesar {UserDamage}");
+                Console.WriteLine($"Kamu memilih {senjata4},pilihan yang bagus pahlawan!!");
                 
             }
             if (pilihan==5)
             {
-                Console.WriteLine($"Kamu memilih {senjata5},damage yang akan kamu berikan sebesar {UserDamage}");
+                Console.WriteLine($"Kamu memilih {senjata5},pilihan yang bagus pahlawan!!");
 
             }
         }
